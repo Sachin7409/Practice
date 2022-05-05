@@ -1,0 +1,14 @@
+a = int(input("Enter number to check prime or not :"))   #29
+b = 1
+count = 0
+if a<2:
+    print('Warning: Provide number greater than 2.')
+else:
+    while (b<=a):  # 27/1
+        if a%b==0:
+            count +=1
+        b=b+1
+    if count==2:
+        print('Number is  Prime ')
+    else:
+        print('Number is not Prime')
